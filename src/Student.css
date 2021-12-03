@@ -1,0 +1,71 @@
+body {
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 15px;
+  }
+  input,
+  button {
+    font-size: 15px;
+    background-color: white;
+    border-style: none;
+    color: rgb(18, 153, 194);
+    margin-left: 5px;
+    margin-right: 5px;
+    outline: none;
+  }
+
+  button:hover{
+    cursor: pointer;
+  }
+
+  #btnAdd {
+    margin-left: 10px;
+  }
+
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+  
+  table{
+    margin-left: 260px;
+    margin-top: 50px;
+  }
+
+  .tblHead{
+    background-color: rgb(18, 153, 194);;
+  }
+
+  table,
+  th,
+  td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px 25px 10px 25px;
+    background-color: white;
+    color: rgb(18, 153, 194);
+    font-size: 20px;
+  }
+
+  .styleForm{
+    text-align: center;
+    background-color: rgb(18, 153, 194);
+    color: white;
+    margin-top: 50px;
+    padding: 0px 15px 60px 15px;
+    border: 2px solid white;
+    border-radius: 109px;
+  }
+
+  hr{
+    margin-top: 50px;
+    border: 1px solid white;
+  }
+
+  .frmHead{
+    font-size: 30px;
+  }
